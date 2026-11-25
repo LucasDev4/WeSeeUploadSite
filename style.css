@@ -1,110 +1,319 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
-/*   font-family: "Host Grotesk", sans-serif; */
-/*   font-family: "Special Gothic Expanded One", sans-serif; */
+@import url('[https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap](https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800\&display=swap)');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #E0EAF4;
-    color: #18324B;
-    overflow-y: hidden;
+font-family: Arial, sans-serif;
+background: #E6F0FA;
+color: #18324B;
+overflow-y: hidden;
 }
 
 header {
-    background: #004789;
-    color: white;
-    text-align: center;
-    padding: 35px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+color: white;
+text-align: center;
+padding: 35px 20px;
+display: flex;
+align-items: center;
+justify-content: start;
+gap: 20px;
+height: 120px;
 }
 
-header img{
-    width: 150px;
-    height: 150px;
+header img {
+width: 200px;
+height: 40px;
 }
+
 header h1 {
-    font-size: 38px;
-    margin-bottom: 8px;
-    font-family: "Special Gothic Expanded One", sans-serif;
-    letter-spacing:3px;
+font-size: 38px;
+margin-bottom: 8px;
+font-family: "Special Gothic Expanded One", sans-serif;
+letter-spacing: 3px;
 }
 
-main{
-    height: 70vh;
+main {
+height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .hero {
-    text-align: center;
-    padding: 70px 20px;
-    max-width: 950px;
-    margin: auto;
+text-align: center;
+padding: 70px 20px;
+max-width: 950px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 
 .hero h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    font-family: "Special Gothic Expanded One", sans-serif;
+font-size: 32px;
+margin-bottom: 20px;
+font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.mainSection {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 
 .hero p {
-    line-height: 1.7;
-    margin-bottom: 30px;
-    font-family: "Host Grotesk", sans-serif;
-    font-weight: 400;font-family: "Host Grotesk", sans-serif;
-    font-weight: 400;
+line-height: 1.7;
+margin-bottom: 30px;
+font-family: "Host Grotesk", sans-serif;
+font-weight: 400;
+font-family: "Host Grotesk", sans-serif;
+font-weight: 400;
 }
 
 .download {
-    display: inline-block;
-    background: #004789;
-    color: white;
-    text-decoration: none;
-    padding: 16px 30px;
-    border-radius: 10px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+display: inline-block;
+background-image: linear-gradient(90deg, #004789, #18324B);
+color: #E6F0FA;
+text-decoration: none;
+padding: 16px 30px;
+border-radius: 25px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+width: 500px;
 }
-.download img{
-    width: 35px;
-    height: 35px;
+
+#avaiable {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
 }
+
+#avaiable img {
+margin-top: 15px;
+width: 20px;
+height: 20px;
+}
+
 .download:hover {
-    background: #003568;
+background: #003568;
 }
 
 .hero small {
-    display: block;
-    margin-top: 15px;
-    font-family: "Host Grotesk", sans-serif;
-    font-weight: 400;
+display: block;
+margin-top: 15px;
+font-family: "Host Grotesk", sans-serif;
+font-weight: 400;
 }
 
-.features {
-    text-align: center;
-    padding: 45px 20px;
-    background: white;
+#celular {
+width: 750px;
+height: 750px;
 }
 
-.features p {
-    margin: 15px;
+#celularSection {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 30px;
 }
 
-footer {
-    background: #004789;
-    color: white;
-    text-align: center;
-    padding: 20px;
+#cardsContainer {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+
+#card {
+width: 50px;
+height: 50px;
+padding: 5px;
+border-radius: 50%;
+box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+transition: 0.5s ease;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#card:hover {
+transform: translateY(-5px);
+box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#image {
+opacity: 0.7;
+width: 35px;
+height: 35px;
+}
+
+.footer {
+width: 900px;
+height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+background-image: linear-gradient(90deg, #004789, #18324B);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    header {
+        padding: 20px 15px;
+        min-height: auto;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+    header h1 {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+
+    main {
+        padding: 10px;
+        min-height: auto;
+    }
+
+    .hero {
+        padding: 35px 15px;
+        width: 100%;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .download {
+        width: 100%;
+        max-width: 400px;
+        padding: 15px 20px;
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .hero small {
+        font-size: 12px;
+    }
+
+    #celularSection {
+        display: none;
+    }
+
+    #cardsContainer {
+        gap: 15px;
+    }
+
+    #card {
+        width: 45px;
+        height: 45px;
+    }
+
+    #image {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer {
+        width: 95%;
+        min-height: 250px;
+        border-radius: 15px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .hero {
+        padding: 25px 10px;
+    }
+
+    .hero h2 {
+        font-size: 21px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .download {
+        padding: 13px 15px;
+        font-size: 13px;
+    }
+
+    #cardsContainer {
+        gap: 10px;
+    }
+
+    #card {
+        width: 40px;
+        height: 40px;
+    }
+
+    #image {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+
+    main {
+        max-width: 1600px;
+        margin: auto;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
 }
