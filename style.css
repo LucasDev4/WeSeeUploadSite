@@ -182,7 +182,8 @@ background-image: linear-gradient(90deg, #004789, #18324B);
     }
 
     header img {
-        width: 150px;
+         width: 250px;
+        height: 50px;
     }
 
     header h1 {
